@@ -1,4 +1,5 @@
 # micrograd-matlab
+Educational neural network code
 
 ![binary classification](example.png)
 
@@ -53,7 +54,7 @@ fprintf(' Result of backward pass: Gradient dg/db = %f... \n', b.Grad)
 
 ### Example 2: Training a binary classifier
 
-This is Andrej's moon dataset example, which is implemented in `test05`, although with a lower number of data points to reduce the computational time. It provides an example of training an 2-layer neural network (MLP) binary classifier. The boundary shown in the image included at the top of this file is achieved using a 2-layer neural net with two 16-node hidden layers.
+This is Andrej's moon dataset example, which is implemented in `test05`, although with a lower number of data points to reduce the computational time. It provides an example of training an 2-layer neural network (multi layer perceptron) binary classifier. The boundary shown in the image included at the top of this file is achieved using a 2-layer neural net with two 16-node hidden layers.
 
 ### License
 
